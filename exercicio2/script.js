@@ -13,3 +13,24 @@ if(nacionalidade === "brasileira"){
 } else{
     console.log("nacionalidade não encontrada")
 }
+
+
+switch(nacionalidade){
+    case "brasileira":
+        console.log("A pessoa e do Brasil!")
+        break;
+    case "argentina":
+        console.log("A pessoa e da Argentina!")
+        break;
+    case "uruguai":
+        console.log("A pessoa e do Uruguai")
+        break;
+    case "chilena":
+        console.log("A pessoa e do Chile!")
+        break;
+    case "colombiana":
+        console.log("A pessoa e da Colombia!")
+        break;
+    default:
+        console.log("A sua nacionalidade nao foi encontrada!")
+}
